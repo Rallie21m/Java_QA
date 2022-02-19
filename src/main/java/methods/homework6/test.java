@@ -82,7 +82,7 @@ public class test {
                     System.out.println("Password must contain digit!");
                 }
                 if (symbolCount == 0){
-                    System.out.println("Password must contain symbol!");
+                    System.out.println("Password must contain symbol ! & @.");
                 }
             }
         } else {
