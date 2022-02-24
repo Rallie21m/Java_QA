@@ -25,7 +25,7 @@ public class Homework9 {
         fillArrayWithRandomNumbers(arrayLength);
     }
 
-    // The largest number from three
+    // The largest number from three numbers
     public static void findLargestNumberFromThree(int a, int b, int c) {
         System.out.printf("The largest number from %d, %d, and %d is: %d",
                 a, b, c, Math.max(Math.max(a, b), c));
