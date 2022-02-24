@@ -12,11 +12,11 @@ public class Homework3 {
         int c = 5;
         if (a > b) {
             if (a > c) {
-                System.out.println("Number a is greater");
+                System.out.println("Number a is greatest");
             }
         } else if (b > c) {
-            System.out.println("Number b is greater");
-        } else System.out.println("Number c is greater");
+            System.out.println("Number b is greatest");
+        } else System.out.println("Number c is greatest");
 
         //l,h to calculate P and S
         int length = 3;
