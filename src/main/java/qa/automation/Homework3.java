@@ -7,9 +7,16 @@ public class Homework3 {
         Scanner scanner = new Scanner(System.in);
 
         //a,b,c,which is greater
-        int a = 7;
-        int b = 8;
-        int c = 5;
+        int a;
+        int b;
+        int c;
+        System.out.println("Enter number a:");
+        a = scanner.nextInt();
+        System.out.println("Enter number b:");
+        b = scanner.nextInt();
+        System.out.println("Enter number c:");
+        c = scanner.nextInt();
+
         if (a > b) {
             if (a > c) {
                 System.out.println("Number a is greatest");
